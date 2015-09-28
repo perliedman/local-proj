@@ -8,6 +8,12 @@ and you need to work with the data in a cartesian system (use euclidean distance
 _Solution:_ feed your data to `local-proj`, and it will hand you a suitable projection
 independent of geographic location
 
+## Installing
+
+```
+npm install --save local-proj
+```
+
 ## Example
 
 ```javascript
@@ -18,6 +24,9 @@ var projection = localProj.find(geojson);
 
 var cartesian = projection.forward(geojsoncoord);
 ```
+
+To reproject your GeoJSON to the projection, you might want to look at
+[reproject](https://github.com/perliedman/reproject).
 
 ## API
 
