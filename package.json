@@ -1,0 +1,29 @@
+{
+  "name": "local-proj",
+  "version": "1.0.0",
+  "description": "Find a local projection from GeoJSON data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:perliedman/local-proj.git"
+  },
+  "keywords": [
+    "geojson",
+    "projection",
+    "proj4",
+    "local"
+  ],
+  "author": "Per Liedman <per@liedman.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perliedman/local-proj/issues"
+  },
+  "homepage": "https://github.com/perliedman/local-proj",
+  "dependencies": {
+    "proj4": "^2.3.10",
+    "turf-meta": "^1.0.2"
+  }
+}
