@@ -2,6 +2,7 @@
   "name": "local-proj",
   "version": "1.0.0",
   "description": "Find a local projection from GeoJSON data",
+  "homepage": "https://github.com/perliedman/local-proj",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
