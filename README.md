@@ -35,10 +35,8 @@ To reproject your GeoJSON to the projection, you might want to look at
 Finds a local projection that is suitable for projecting the `geojson` to cartesian
 coordinates.
 
-The returned projection is a [proj4](http://proj4js.org/) projection with two methods:
-`forward` and `inverse`. `forward` takes a WGS84 coordinate as an array in longitude/latitude
-order, and converts to a cartesian coordinate with meters as unit. `inverse` does the
-opposite.
+The returned projection is a [proj4](http://proj4js.org/) projection object (`proj4.Proj`), which
+you can use to create transforms to and from other projections.
 
 Note that the local coordinate system will only work as expected for datasets up to a couple
 of hundred kilometers in size.
