@@ -1,6 +1,6 @@
 {
   "name": "local-proj",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Find a local projection from GeoJSON data",
   "homepage": "https://github.com/perliedman/local-proj",
   "main": "index.js",
