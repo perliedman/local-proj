@@ -1,5 +1,7 @@
 # local-proj
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/perliedman/local-proj.svg)](https://greenkeeper.io/)
+
 Find a projection for easy cartesian calculations, given a GeoJSON in WGS84.
 
 _Problem:_ you have geographic data in WGS84 of limited extent, but arbitrary location,
