@@ -22,9 +22,8 @@
   "bugs": {
     "url": "https://github.com/perliedman/local-proj/issues"
   },
-  "homepage": "https://github.com/perliedman/local-proj",
   "dependencies": {
-    "proj4": "^2.3.10",
+    "proj4": "^2.4.3",
     "turf-meta": "^1.0.2"
   }
 }
