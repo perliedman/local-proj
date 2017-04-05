@@ -1,5 +1,7 @@
 # local-proj
 
+[![npm version](https://badge.fury.io/js/local-proj.svg)](https://badge.fury.io/js/local-proj) [![Build status](https://travis-ci.org/perliedman/local-proj.svg?branch=master)](https://travis-ci.org/perliedman/local-proj)
+
 Find a projection for easy cartesian calculations, given a GeoJSON in WGS84.
 
 _Problem:_ you have geographic data in WGS84 of limited extent, but arbitrary location,
