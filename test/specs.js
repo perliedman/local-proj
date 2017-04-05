@@ -31,6 +31,6 @@ test('transforms distant point correctly', function(t) {
 	var projectedP = proj.forward([-74.39964, 39.98017]);
 	var distance = Math.sqrt(projectedP[0]*projectedP[0] + projectedP[1]*projectedP[1]);
 
-	t.ok(Math.abs(1 - distance / (50 * 1609.344)), 0.001);
+	t.ok(Math.abs(1 - distance / (50 * 1609.344)) < 0.0015);
 	t.end()
 });
