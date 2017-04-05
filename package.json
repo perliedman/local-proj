@@ -5,7 +5,7 @@
   "homepage": "https://github.com/perliedman/local-proj",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js | tap-summary"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "dependencies": {
     "proj4": "^2.4.3",
     "turf-meta": "^1.0.2"
+  },
+  "devDependencies": {
+    "tap-summary": "^3.0.2",
+    "tape": "^4.6.3"
   }
 }
